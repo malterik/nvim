@@ -23,4 +23,11 @@ return require('packer').startup(function(use)
 
   -- General Plugins
   use 'bfredl/nvim-miniyank'
+
+	-- Color
+	use 'christianchiarulli/nvcode-color-schemes.vim'
+	use 'norcalli/nvim-colorizer.lua'
+	use 'sheerun/vim-polyglot'
+
+
 end)
