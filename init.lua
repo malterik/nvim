@@ -15,6 +15,8 @@
   require('nv-gitsigns')
   require('nv-gitblame')
   require('nv-telescope')
+  require('nv-comment')
+  -- require('nv-treesitter')
 
   -- LSP
   require('lsp')
