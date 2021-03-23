@@ -30,9 +30,9 @@ return require('packer').startup(function(use)
 	use 'ChristianChiarulli/python-snippets'
 
 	-- Treesitter
-	-- use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
-	-- use 'nvim-treesitter/nvim-treesitter-refactor'
-	-- use 'p00f/nvim-ts-rainbow'
+  use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
+	use 'nvim-treesitter/nvim-treesitter-refactor'
+	use 'p00f/nvim-ts-rainbow'
 
 	-- Status Line and Bufferline
 	use 'glepnir/galaxyline.nvim'
@@ -42,6 +42,11 @@ return require('packer').startup(function(use)
   -- General Plugins
   use 'bfredl/nvim-miniyank'
 	use 'terrortylor/nvim-comment'
+	use 'glepnir/dashboard-nvim'
+
+	-- Icons
+	use 'kyazdani42/nvim-web-devicons'
+	use 'ryanoasis/vim-devicons'
 
 	-- Color
 	use 'christianchiarulli/nvcode-color-schemes.vim'
