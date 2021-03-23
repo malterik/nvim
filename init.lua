@@ -34,3 +34,4 @@
   require('lsp.efm-general-ls')
   require('lsp.rust-ls')
   require('lsp.virtual_text')
+  require('lsp.rust-analyzer-ls')
