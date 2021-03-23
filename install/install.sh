@@ -13,3 +13,5 @@ sudo npm install -g graphql-language-service-cli \
 	vscode-html-languageserver-bin \
 	pyright \
 	vscode-json-languageserver
+
+sudo apt install ripgrep
