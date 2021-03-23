@@ -7,6 +7,14 @@
   -- Plugins
   require('nv-compe')
   require('nv-colorizer')
+  require('nv-barbar')
+  require('nv-lightbulb')
+  require('nv-lspkind')
+  require('nv-galaxyline')
+  require('nv-neogit')
+  require('nv-gitsigns')
+  require('nv-gitblame')
+  require('nv-telescope')
 
   -- LSP
   require('lsp')

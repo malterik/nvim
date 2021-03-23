@@ -20,6 +20,19 @@ return require('packer').startup(function(use)
 
 	-- Autocomplete
 	use 'hrsh7th/nvim-compe'
+	use 'hrsh7th/vim-vsnip'
+	use 'xabikos/vscode-javascript'
+	use 'dsznajder/vscode-es7-javascript-react-snippets'
+	use 'golang/vscode-go'
+	use 'rust-lang/vscode-rust'
+	use 'ChristianChiarulli/html-snippets'
+	use 'ChristianChiarulli/java-snippets'
+	use 'ChristianChiarulli/python-snippets'
+
+	-- Status Line and Bufferline
+	use 'glepnir/galaxyline.nvim'
+	-- use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}
+	use 'romgrk/barbar.nvim'
 
   -- General Plugins
   use 'bfredl/nvim-miniyank'
@@ -29,5 +42,16 @@ return require('packer').startup(function(use)
 	use 'norcalli/nvim-colorizer.lua'
 	use 'sheerun/vim-polyglot'
 
+	-- Git
+	use 'timuntersberger/neogit'
+	use {'lewis6991/gitsigns.nvim', requires = {'nvim-lua/plenary.nvim'}}
+	use 'f-person/git-blame.nvim'
+	use 'tpope/vim-fugitive'
+	use 'tpope/vim-rhubarb'
 
+	 -- Telescope
+	use 'nvim-lua/popup.nvim'
+	use 'nvim-lua/plenary.nvim'
+	use 'nvim-telescope/telescope.nvim'
+	use 'nvim-telescope/telescope-media-files.nvim'
 end)
