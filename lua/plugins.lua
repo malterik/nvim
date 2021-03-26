@@ -21,6 +21,7 @@ return require('packer').startup(function(use)
 	-- Autocomplete
 	use 'hrsh7th/nvim-compe'
 	use 'hrsh7th/vim-vsnip'
+	use 'hrsh7th/vim-vsnip-integ'
 	use 'xabikos/vscode-javascript'
 	use 'dsznajder/vscode-es7-javascript-react-snippets'
 	use 'golang/vscode-go'
@@ -28,6 +29,7 @@ return require('packer').startup(function(use)
 	use 'ChristianChiarulli/html-snippets'
 	use 'ChristianChiarulli/java-snippets'
 	use 'ChristianChiarulli/python-snippets'
+	use 'polypus74/trusty_rusty_snippets'
 
 	-- Treesitter
   use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}

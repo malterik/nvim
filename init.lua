@@ -17,6 +17,7 @@
   require('nv-telescope')
   require('nv-comment')
   require('nv-dashboard')
+  require('nv-vsnip')
   -- require('nv-treesitter')
 
   -- LSP
