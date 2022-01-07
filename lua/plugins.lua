@@ -10,7 +10,11 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- Explorer
-  use 'kyazdani42/nvim-tree.lua'
+	use {
+    'kyazdani42/nvim-tree.lua',
+    requires = 'kyazdani42/nvim-web-devicons',
+    config = function() require'nvim-tree'.setup {} end
+	}
 
 	-- LSP
 	use 'neovim/nvim-lspconfig'
@@ -67,4 +71,6 @@ return require('packer').startup(function(use)
 	use 'nvim-lua/plenary.nvim'
 	use 'nvim-telescope/telescope.nvim'
 	use 'nvim-telescope/telescope-media-files.nvim'
+
+	-- use 'lukas-reineke/indent-blankline.nvim'
 end)

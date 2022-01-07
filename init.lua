@@ -5,19 +5,21 @@
 	require('colorscheme')
 
   -- Plugins
-  require('nv-compe')
-  require('nv-colorizer')
   require('nv-barbar')
+  require('nv-colorizer')
+  require('nv-comment')
+  require('nv-compe')
+  require('nv-dashboard')
+  require('nv-galaxyline')
+  require('nv-gitblame')
+  require('nv-gitsigns')
   require('nv-lightbulb')
   require('nv-lspkind')
-  require('nv-galaxyline')
   require('nv-neogit')
-  require('nv-gitsigns')
-  require('nv-gitblame')
+  require('nv-nvimtree')
   require('nv-telescope')
-  require('nv-comment')
-  require('nv-dashboard')
   require('nv-vsnip')
+  -- require('nv-blankline')
   -- require('nv-treesitter')
 
   -- LSP
